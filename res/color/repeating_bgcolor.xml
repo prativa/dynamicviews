@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/tab_layer" />
+    <item >
+         <bitmap android:src="@drawable/pattern"
+               android:tileMode="repeat">
+                </bitmap>
+                </item>
+</layer-list>

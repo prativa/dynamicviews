@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_dialog_container"
+    android:layout_width="145dp"
+    android:layout_height="145dp"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imgBtnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/fb_popup_remove_icon_selector" />
+
+    <Button
+        android:id="@+id/btnCameraUpload"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:paddingLeft="25dp"
+        android:text="@string/camera" />
+
+    <Button
+        android:id="@+id/btnMediaUpload"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:paddingLeft="25dp"
+        android:text="@string/browse_media" />
+
+</LinearLayout>

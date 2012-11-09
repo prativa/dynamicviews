@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/btnListBar_profile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/repeating_bgcolor"
+     
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="33dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:background="@color/border_button"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="1dp"
+            android:weightSum="3" >
+
+            <Button
+                android:id="@+id/btnEditProfile"
+                style="@style/CustomProfileButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:text="Edit Profile"
+                android:textColor="@color/text_saved"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:padding="5dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowDy="1"
+        android:shadowRadius="0.01"
+        android:text="Details of user profile"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detailUserData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:padding="5dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowDy="1"
+        android:shadowRadius="0.01"
+        android:text="Click Edit Profile To Fill This Data"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

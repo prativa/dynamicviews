@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_default_color">#ebebeb</color>
+    <color name="listborder_grey_color">#d3d3d3</color>
+    <color name="white_color">#FFFFFF</color>
+     <color name="text_pressed">#783B16</color>
+    <color name ="text_saved">#000000</color>
+
+</resources>
